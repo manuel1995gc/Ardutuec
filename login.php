@@ -17,10 +17,10 @@ session_destroy();
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/login.css">
     
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/login.js"></script>
+    <script type="text/jscript" src="js/bootstrap.js"></script>
+    <script type="text/jscript" src="js/bootstrap.min.js"></script>
+    <script type="text/jscript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/jscript" src="js/login.js"></script>
 	<title>Document</title>
 </head>
 <body>
@@ -32,7 +32,7 @@ session_destroy();
     <div class="col-md-4">
       <section class="login-form">
         <form method="post" action="loginv.php" role="login">
-          <img src="img/arduino/photo(2).jpg" class="img-responsive img-circle" alt="" />
+          <img src="iconos/descarga.png" class="img-responsive img-circle" alt="" />
           <input type="email" name="correo" id="correo" placeholder="Correo Universitario" required class="form-control input-lg" value="" />
           
           <input type="password" class="form-control input-lg" id="contra" name="contra" placeholder="Contraseña" required="" />
